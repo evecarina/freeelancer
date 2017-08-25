@@ -1,0 +1,48 @@
+/*
+ * Estilos de tu proyecto
+ */
+ a{
+ 	text-decoration: none;
+ 	display: inline-block;
+ 	float: right;
+ 	margin:0px 10px;
+ 	margin-top: 20px;
+ 	color: #fff;
+ 	}
+ 	
+  header p{
+  margin-left: 20px;
+ 	display: inline-block;
+ 	font-size: 20px;
+ 	color: #fff;
+ 		
+ }
+ header{
+ 	background-color: #673f9e;
+ }
+ .start{
+ 	background-color: #39dfaf;
+ }
+ .start img{
+ 	margin-top:60px;
+ 	width: 200px;
+ 	height: 200px;
+ }
+ .start p{
+ 	color: #fff;
+ 	font-size: 20px;
+ }
+ #p1{
+ 	font-size: 30px;
+ }
+.portafolios div{
+	display: inline-block;
+	margin: 10px 20px;
+}
+.portafolios img{
+	width: 350px;
+	height: 300px;
+}
+.portafolios p{
+	font-size: 30px;
+}
