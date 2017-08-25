@@ -46,3 +46,32 @@
 .portafolios p{
 	font-size: 30px;
 }
+.about div{
+	height:40%;
+	width:40%;
+	display: inline-block;
+	margin-left: 50px;
+	text-align: justify;
+	color: #fff;
+}
+.about {
+	background-color: #89ebf8;
+}
+ input{
+ 	margin-left: 300px;
+ 	margin-top: 15px;
+ 	width: 50%;
+	display: inline-block;
+}
+#enviar{
+	margin-top: 15px;
+ 	margin-left: 300px;
+	display: inline-block;
+}
+.location div{
+	display: inline-block;
+	margin: 30px 30px 0px 150px;
+}
+.location{
+	background-color:#89ebf8;
+}
