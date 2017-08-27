@@ -11,9 +11,10 @@
 <body>
 	<header>
 		<p>START BOOTSRAP</p>
-		<a href="">PORTAFOLIO</a>
-		<a href="">ABOUT</a>
 		<a href="">CONTACT</a>
+		<a href="#portafolios">PORTAFOLIO</a>
+		<a href="#about">ABOUT</a>
+
  	</header>
 	<!-- Escribe tu código aquí -->
 	<section class="start">
@@ -24,10 +25,10 @@
 
 		</div>
 	</section>
-	<section class="portafolios">
+	<section class="portafolios" id="portafolios">
 		<p align="center">PORTFOLIO</p>
 		<p align="center">&#822 &#9733 &#822</p>
-		
+
 		<div id="portfolio">
 			<div><img src="assets/images/portfolio/cabin.png" alt=""></div>
 			<div><img src="assets/images/portfolio/cake.png" alt=""></div>
@@ -38,9 +39,9 @@
 			<div><img src="assets/images/portfolio/safe.png" alt=""></div>
 			<div><img src="assets/images/portfolio/submarine.png" alt=""></div>
 		</div>
-		
+
 	</section>
-	<section class="about">
+	<section class="about" id="about">
 		<p align="center">ABOUT</p>
 		<p align="center">&#822 &#822 &#9733 &#822 &#822</p>
 		<div>
@@ -60,26 +61,42 @@
 			<input id="mensaje" type="text" placeholder="Message "><br/>
 			<button id="enviar">Send</button>
 		</div>
+
 		<section class="location">
-			<div>
-				<p>LOCATION</p>
-				<p>3481 Melrose Place</p>
+			<div id="loc1">
+				<div> <h3 >LOCATION</h3></div>
+				<div><h3 align="center">AROUND THE WEB</h3></div>
+				<div><h3 >ABOUT FREENLANCER</h3></div>
+			</div>
+			<div id="loc2">
+				<div>
+				<p>3481 Melrose Place <br/>
 				<p>Bervely Hills,Ca902010</p>
-			</div>
-			<div>Around The Web</div>
-			<div>
-				<p>About Freenlancer</p>
-				<p>Freenlacer is a free to use ,open source Botstap theme</p>
-			</div>
+				</div>
+			    <div id="loc2_img">
+				<a href="https://dribbble.com/"><img src="assets/images/nose.png" alt=""></a>
+				<a href="https://www.instagram.com/"><img src="assets/images/in.png" alt=""></a>
+				<a href="https://twitter.com/"><img src="assets/images/twiter.png" alt=""></a>
+				<a href="gmail.com"><img src="assets/images/gmail.png" alt=""></a>
+				<a href="https://www.facebook.com/"><img src="assets/images/face.png" alt=""></a>
+
+			   </div>
+
+			   <div >
+			   	<p>Freenlacer is a free to use ,open source <br/>
+				Bootstrap theme created by Start Bootstrap.</p>
+			   </div>
+			 </div>
+
 		</section>
 
-		
+
 	</section>
 
 
 
 	<!-- Enlaza aquí tu archivo JS -->
 	<script src="js/app.js"></script>
-	
+
 </body>
 </html>
